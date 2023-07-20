@@ -78,7 +78,7 @@ Este são os dados que propomos:
 
 * [Studio Ghibli](src/data/ghibli/ghibli.json).
   Lista de animações e personagens do [Studio Ghibli](https://ghiblicollection.com/).
-  - [Pesquisa com seguidores de Studio Ghibli](src/data/ghibli/README.pt-BR.md)
+  - [Pesquisa com seguidores de Studio Ghibli](src/data/ghibli/README.pt.md)
 
 
 * [Breaking Bad](src/data/breakingbad/breakingbad.json): Neste conjunto você encontrará uma
