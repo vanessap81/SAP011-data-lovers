@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Trajan Pro", sans-serif;
+}
+
+
+@font-face {
+    font-family: "Trajan Pro";
+    src: url("./trajan-pro-cufonfonts-webfont/TrajanPro-Regular.woff") format("woff"),
+         url("./trajan-pro-cufonfonts-webfont/TrajanPro-Bold.woff") format("woff");
+}
