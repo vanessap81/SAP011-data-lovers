@@ -15,15 +15,15 @@
 
     <nav id="navigation">
 
-      <div class="options-leftbar">
+      <div class="options-navbar">
         <a id="about">Sobre</a>
       </div>
 <!-- 
-      <div class="options-leftbar">
+      <div class="options-navbar">
        <p id="txt-buscar">Buscar por:</p>
       </div> -->
 
-      <div class="options-leftbar">
+      <div class="options-navbar">
         <select class="selector-list" id="ordernar">
           <option disabled selected hidden> Ordernar por:</option>
           <option value="A-Z" id="A-Z">A-Z</option>
@@ -71,9 +71,10 @@
       </select>
       </div> -->
       
-      <div class="options-leftbar">
-        <label for="">Pesquisar</label>
-        <input type="text">
+      <div class="options-navbar" id="search-div">
+        <!-- <label for="">Pesquisar</label> -->
+        <input id="text-search" type="text" placeholder="Buscar">
+        <button id="btn-search">Buscar</button>
        </div>
 
     </nav>

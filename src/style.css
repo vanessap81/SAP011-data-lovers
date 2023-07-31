@@ -53,7 +53,22 @@ nav input {
     background-color: #eeeeee;
     border: none;
     border-radius: 4px;
-  }
+}
+
+nav #text-search {
+    border-radius: 4px 0px 0 4px;
+}
+
+nav #btn-search {
+    height: 23px;
+    border: none;
+    float: right;
+    font-family: "Trajan Pro", sans-serif;
+    border-radius: 0 4px 4px 0;
+    padding: 4px;
+    text-align: center;
+    background: silver;
+}
 
 main section {
     height: 600px;
