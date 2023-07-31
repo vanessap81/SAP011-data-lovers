@@ -8,88 +8,84 @@
 
   <body>
   
-  <header class="hearder-got">
+  <header class="header-got">
     <div id="root">
-      <h1>Game of Thrones</h1>
+      <img src="./img/got_opening_logo-removebg-preview.png" alt="">
     </div>
+
+    <nav id="navigation">
+
+      <div class="options-leftbar">
+        <a id="about">Sobre</a>
+      </div>
+<!-- 
+      <div class="options-leftbar">
+       <p id="txt-buscar">Buscar por:</p>
+      </div> -->
+
+      <div class="options-leftbar">
+        <select class="selector-list" id="ordernar">
+          <option disabled selected hidden> Ordernar por:</option>
+          <option value="A-Z" id="A-Z">A-Z</option>
+          <option value="Z-A" id="Z-A">Z-A</option>
+        </select>
+      </div>
+
+      <div class="options-leftbar">
+        <select class="selector-list" id="buscar-family">
+          <option disabled selected hidden> Familia</option>
+          <option value="targaryen">"House Targaryen"</option>
+          <option value="tarly">"House Tarly"</option>
+          <option value="stark">"House Stark"</option>
+          <option value="baratheon">"House Baratheon"</option>
+          <option value="lannister">"House Lannister"</option>
+          <option value="greyjoy">"House Greyjoy"</option>
+          <option value="clegane">"House Clegane"</option>
+          <option value="baelish">"House Baelish"</option>
+          <option value="seaworth">"House Seaworth"</option>
+          <option value="unknown">"Familia Desconhecida"</option>
+          <option value="tyrell">"House Tyrell"</option>
+          <option value="free-folk">"Free Folk"</option>
+          <option value="tarth">"Tarth"</option>
+          <option value="naathi">"Naathi"</option>
+          <option value="none">"None"</option>
+          <option value="bronn">"Bronn"</option>
+          <option value="qyburn">"Qyburn"</option>
+          <option value="worm">"Worm"</option>
+          <option value="sand">"Sand"</option>
+          <option value="lorath">"Lorath"</option>
+          <option value="viper">"Viper"</option>
+          <option value="sparrow">"Sparrow"</option>
+          <option value="mormont">"Mormont"</option>
+          <option value="bolton">"Bolton"</option>
+          <option value="naharis">"Naharis"</option>
+        </select>
+      </div>
+
+      <!-- <div class="options-leftbar">
+      <select class="selector-list" id="burcar-membrosnum">
+        <option disabled selected hidden> Numero de Membros por Familia</option>
+        <option value="1">Membros de 01 a 03</option>
+        <option value="2">Membros de 04 a 06</option>
+        <option value="3">Membros de 07 a 10</option>
+      </select>
+      </div> -->
+      
+      <div class="options-leftbar">
+        <label for="">Pesquisar</label>
+        <input type="text">
+       </div>
+
+    </nav>
   </header>
-    
-  <nav id="navigation">
-    <div class="menu-leftside">
-      <aside class="leftbar">
-        <div class="options-leftbar">
-          <a class="buttons" id="btn-sobre">Sobre</a>
-        </div>
-        <hr class="line">
-        <div class="options-leftbar">
-         <p id="txt-buscar">Buscar por:</p>
-        </div>
-    <div class="options-leftbar">
-      <select class="selector-list" id="buscar-family">
-        <option disabled selected hidden> Familia</option>
-        <option value="targaryen">"House Targaryen"</option>
-        <option value="tarly">"House Tarly"</option>
-        <option value="stark">"House Stark"</option>
-        <option value="baratheon">"House Baratheon"</option>
-        <option value="lannister">"House Lannister"</option>
-        <option value="greyjoy">"House Greyjoy"</option>
-        <option value="clegane">"House Clegane"</option>
-        <option value="baelish">"House Baelish"</option>
-        <option value="seaworth">"House Seaworth"</option>
-        <option value="unknown">"Familia Desconhecida"</option>
-        <option value="tyrell">"House Tyrell"</option>
-        <option value="free-folk">"Free Folk"</option>
-        <option value="tarth">"Tarth"</option>
-        <option value="naathi">"Naathi"</option>
-        <option value="none">"None"</option>
-        <option value="bronn">"Bronn"</option>
-        <option value="qyburn">"Qyburn"</option>
-        <option value="worm">"Worm"</option>
-        <option value="sand">"Sand"</option>
-        <option value="lorath">"Lorath"</option>
-        <option value="viper">"Viper"</option>
-        <option value="sparrow">"Sparrow"</option>
-        <option value="mormont">"Mormont"</option>
-        <option value="bolton">"Bolton"</option>
-        <option value="naharis">"Naharis"</option>
-      </select>
-    </div>
-    <div class="options-leftbar">
-    <select class="selector-list" id="burcar-membrosnum">
-      <option disabled selected hidden> Numero de Membros por Familia</option>
-      <option value="1">Membros de 01 a 03</option>
-      <option value="2">Membros de 04 a 06</option>
-      <option value="3">Membros de 07 a 10</option>
-    </select>
-    </div>
-    <hr class="line">
-    <div class="options-leftbar">
-      <select class="selector-list" id="ordernar">
-        <option disabled selected hidden> Ordernar por:</option>
-        <option value="A-Z" id="A-Z">A-Z</option>
-        <option value="Z-A" id="Z-A">Z-A</option>
-      </select>
-    </div>
-      </aside>
 
-      <main class="all-infcards">
-        <seletion>
-         <div class="box-card" id="inform-cards"></div>
-        </seletion>
-
-      </main>
-    </div>    
-  </nav>
+  <main>
+    <section></section>
+  </main>
 
   <footer class="rodape">
     <div class="nomedupla">
-      <p>Desenvolvido no Bootcamp da Laboratória por:</p>
-    </div>
-    <div class="alunas">
-    <p class="nome-aluna"> Julia Ribeiro</p>
-    </div>
-    <div cass="alunas">
-      <p class="nome-aluna"> Vanessa Ponte</p>
+      <p>Desenvolvido no Bootcamp da Laboratória por Julia Ribeiro e Vanessa Ponte</p>
     </div>
   </footer>
     
