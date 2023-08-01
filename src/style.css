@@ -55,7 +55,7 @@ nav input {
     border-radius: 4px;
 }
 
-nav #text-search {
+nav #name-search {
     border-radius: 4px 0px 0 4px;
 }
 
@@ -70,11 +70,33 @@ nav #btn-search {
     background: silver;
 }
 
-main section {
-    height: 600px;
+main #cards-container {
+    min-height: 600px;
     background-image: url(./img/throne-removebg-preview.png);
     background-repeat: no-repeat;
     background-position: center center;
+    display: flex;
+    justify-content: center;
+}
+
+main section p {
+    margin-top: 20px;
+    font-size: 0.8em;
+    display: none;
+}
+
+main #cards-container .box {
+    border: 3px solid goldenrod;
+    width: 15%;
+    height: auto;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 0.8em;
+    font-family: "Trajan Pro", sans-serif;
+    background-color: #000;
+    box-shadow: 6px 6px 3px #666666;
 }
 
 footer {

@@ -24,7 +24,7 @@
       </div> -->
 
       <div class="options-navbar">
-        <select class="selector-list" id="ordernar">
+        <select class="selector-list" id="order-selector">
           <option disabled selected hidden> Ordernar por:</option>
           <option value="A-Z" id="A-Z">A-Z</option>
           <option value="Z-A" id="Z-A">Z-A</option>
@@ -32,7 +32,7 @@
       </div>
 
       <div class="options-leftbar">
-        <select class="selector-list" id="buscar-family">
+        <select class="selector-list" id="family-selector">
           <option disabled selected hidden> Familia</option>
           <option value="targaryen">"House Targaryen"</option>
           <option value="tarly">"House Tarly"</option>
@@ -61,19 +61,9 @@
           <option value="naharis">"Naharis"</option>
         </select>
       </div>
-
-      <!-- <div class="options-leftbar">
-      <select class="selector-list" id="burcar-membrosnum">
-        <option disabled selected hidden> Numero de Membros por Familia</option>
-        <option value="1">Membros de 01 a 03</option>
-        <option value="2">Membros de 04 a 06</option>
-        <option value="3">Membros de 07 a 10</option>
-      </select>
-      </div> -->
       
       <div class="options-navbar" id="search-div">
-        <!-- <label for="">Pesquisar</label> -->
-        <input id="text-search" type="text" placeholder="Buscar">
+        <input id="name-search" type="text" placeholder="Buscar por nome">
         <button id="btn-search">Buscar</button>
        </div>
 
@@ -81,7 +71,8 @@
   </header>
 
   <main>
-    <section></section>
+    <section><p id="statistics">Essa família corresponde a X % do total de personagens</p></section>
+    <section id="cards-container"></section>
   </main>
 
   <footer class="rodape">
