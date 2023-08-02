@@ -85,7 +85,7 @@ main section p {
     display: none;
 }
 
-main #cards-container .box {
+main #cards-container .card {
     border: 3px solid goldenrod;
     width: 15%;
     height: auto;
