@@ -1,26 +1,12 @@
-// estas funciones son de ejemplo
-
-// export const example = () => {
-//   return "example";
-// };
-
-// export const anotherExample = () => {
-//   return "OMG";
-// };
-
-export const filterData = () => {
-  const arrayGot = Object.values();
-  const targaryenFilter = arrayGot.filter(
-    (targaryenFamily) => targaryenFamily.family === "House Targaryen"
-  );
-  targaryenFilter.forEach((targaryenFamily) => {
-    console.log(targaryenFamily);
+function sortData(data, sortBy, sortOrder) {
+  data.sort(function (a, b) {
+    if (a.name > b.name) {
+      return 1;
+    }
+    if (a.name < b.name) {
+      return -1;
+    }
+    // a must be equal to b
+    return 0;
   });
-};
-
-export const sortData = () => {
-  return "OMG";
-};
-export const computeData = () => {
-  return "OMG";
-};
+}

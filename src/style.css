@@ -55,11 +55,14 @@ nav input {
     border-radius: 4px;
 }
 
-nav #name-search {
+nav #name-search,
+nav #order-selector,
+nav #family-selector {
     border-radius: 4px 0px 0 4px;
 }
 
-nav #btn-search {
+nav #btn-search,
+nav .btn-exhibit {
     height: 23px;
     border: none;
     float: right;
