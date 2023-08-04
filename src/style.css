@@ -95,11 +95,19 @@ main #cards-container .card {
     margin: 10px;
     padding: 15px;
     border-radius: 10px;
+    list-style: none;
+    color: silver;
     text-align: center;
     font-size: 0.8em;
     font-family: "Trajan Pro", sans-serif;
     background-color: #000;
     box-shadow: 6px 6px 3px #666666;
+}
+
+#cards-container .card h3,
+#cards-container .card p {
+    color: silver;
+    font-family: "Trajan Pro", sans-serif;
 }
 
 footer {
