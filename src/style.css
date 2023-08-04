@@ -58,13 +58,13 @@ nav input {
 nav #name-search,
 nav #order-selector,
 nav #family-selector {
-    border-radius: 4px 0px 0 4px;
+    /* border-radius: 4px 0px 0 4px; */
+    border-radius: 4px;
 }
 
 nav #btn-search,
 nav .btn-exhibit {
     height: 23px;
-    border: none;
     float: right;
     font-family: "Trajan Pro", sans-serif;
     border-radius: 0 4px 4px 0;

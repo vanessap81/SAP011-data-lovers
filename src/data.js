@@ -1,12 +1,16 @@
 function sortData(data, sortBy, sortOrder) {
-  data.sort(function (a, b) {
-    if (a.name > b.name) {
-      return 1;
-    }
-    if (a.name < b.name) {
-      return -1;
-    }
-    // a must be equal to b
-    return 0;
-  });
+  if (sortOrder === "A-Z") {
+    console.log(
+      data.sort(function (a, b) {
+        return a.sortBy < b.sortBy ? -1 : a.sortBy > b.sortBy ? 1 : 0;
+      })
+    );
+  } else if (sortOrder === "Z-A") {
+    const reverseIt = data.sort(function (a, b) {
+      return a.sortBy < b.sortBy ? -1 : a.sortBy > b.sortBy ? 1 : 0;
+    });
+    console.log(reverseIt.reverse());
+  }
 }
+
+export default sortData;
