@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Data Lovers - GoT</title>
+    <link rel="shorcut icon" type="icon" href="./img/icons8-game-of-thrones-32.png">
     <link rel="stylesheet" href="style.css" />
   </head>
 
@@ -26,8 +27,8 @@
       <div class="options-navbar">
         <select class="selector-list" id="order-selector">
           <option disabled selected hidden> Ordernar por:</option>
-          <option class="selected" value="A-Z" id="A-Z">A-Z</option>
-          <option class="selected" value="Z-A" id="Z-A">Z-A</option>
+          <option class="selected" value="A-Z">A-Z</option>
+          <option class="selected" value="Z-A">Z-A</option>
         </select>
         <!-- <button type="button" class="btn-exhibit" id="btn-order">Exibir</button> -->
       </div>
@@ -74,7 +75,11 @@
 
   <main>
     <section><p id="statistics">Essa família corresponde a X % do total de personagens</p></section>
-    <section id="cards-container"></section>
+    <section >
+      <ul id="cards-container">
+        <!-- <li class="card"></li> -->
+      </ul>
+    </section>
   </main>
 
   <footer class="rodape">

@@ -1,17 +1,12 @@
-// import sortData from "./data.js";
+import sortData from "./data.js";
 import data from "./data/got.js";
 
-// const orderAz = document.getElementById("A-Z");
+const got = data.got;
+console.log(got);
 
-// // const orderButton = document.getElementById("btn-order");
-// // const familySelector = document.getElementById("family-selector");
-// // const nameSearch = document.getElementById("name-search");
-// // const percent = document.getElementById("statistics");
-// // const cardsContainer = document.getElementById("cards-container");
-// // const got = data.got;
+const alfabeticOrder = document.getElementById("order-selector");
 
-// function OrderIt() {
-//   sortData(data, data.got.firstName, orderAz.value);
-// }
-
-// orderAz.addEventListener("click", OrderIt);
+alfabeticOrder.addEventListener("change", function () {
+  const orderValue = alfabeticOrder.value;
+  sortData(got, "firstName", orderValue);
+});
