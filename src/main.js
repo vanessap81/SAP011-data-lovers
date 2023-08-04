@@ -31,21 +31,21 @@ import data from "./data/got.js";
 //};
 
 // formato de objeto para transformar em formato de array para facilitar a manipulação
-const dadosGot = Object.values(data);
+const dadosGot = Object.values(data.got);
 
 const conteudo = document.getElementById ("cards-container");
 function cardsTela (data) {
   conteudo.innerHTML = data.map((got) => `
   <div class="card">
-      <h3 class="fullname-got">${got.fullName}</h3>
-      <img class="image-got" src=${got.imageUrl} />
+      <h3 class="fullname-got"> ${got.fullName}</h3>
+      <img class="image-got" src="${got.imageUrl}"/>
       <div class="content-card">
         <p><strong>Título:</strong> ${got.title}</p>
         <p><strong>Família:</strong> ${got.family}</p>
         <p><strong>Nascido em:</strong> ${got.born}</p>
       </div>
     </div>
-  `).join('');
+  `).join ('');
 }
 cardsTela(dadosGot);
 
