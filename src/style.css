@@ -19,7 +19,7 @@ header {
 header img {
     height: 140px;
     margin-top: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 header hr {
     color: silver;
@@ -55,31 +55,39 @@ nav input {
     border-radius: 4px;
 }
 
-nav #name-search,
+nav #name-search {
+    border-radius: 4px 0px 0 4px;
+}
+
 nav #order-selector,
 nav #family-selector {
     /* border-radius: 4px 0px 0 4px; */
     border-radius: 4px;
 }
 
-nav #btn-search,
-nav .btn-exhibit {
+nav #btn-search {
     height: 23px;
     float: right;
     font-family: "Trajan Pro", sans-serif;
     border-radius: 0 4px 4px 0;
+    border: none;
     padding: 4px;
     text-align: center;
     background: silver;
 }
 
 main #cards-container {
-    min-height: 600px;
+    min-height: 40rem;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     background-image: url(./img/throne-removebg-preview.png);
     background-repeat: no-repeat;
     background-position: center center;
-    display: flex;
     justify-content: center;
+    margin: auto;
+    padding-top: 1.2rem;
+    padding-left: 0;
 }
 
 main section p {
@@ -89,11 +97,11 @@ main section p {
 }
 
 main #cards-container .card {
-    border: 3px solid goldenrod;
-    width: 15%;
-    height: auto;
-    margin: 10px;
-    padding: 15px;
+    border: 2px solid silver;
+    width: 90%;
+    height: 21rem;
+    margin: 8px;
+    padding: 10px;
     border-radius: 10px;
     list-style: none;
     color: silver;
@@ -101,7 +109,7 @@ main #cards-container .card {
     font-size: 0.8em;
     font-family: "Trajan Pro", sans-serif;
     background-color: #000;
-    box-shadow: 6px 6px 3px #666666;
+    /* box-shadow: 6px 6px 3px #666666; */
 }
 
 #cards-container .card h3,
@@ -109,6 +117,14 @@ main #cards-container .card {
     color: silver;
     font-family: "Trajan Pro", sans-serif;
 }
+
+#cards-container .card img {
+    width: 8rem;
+}
+
+/* .content-card p {
+
+} */
 
 footer {
     height: 150px;
@@ -127,4 +143,10 @@ footer p {
     font-family: "Trajan Pro";
     src: url("./trajan-pro-cufonfonts-webfont/TrajanPro-Regular.woff") format("woff"),
          url("./trajan-pro-cufonfonts-webfont/TrajanPro-Bold.woff") format("woff");
+}
+
+@media screen and (max-width: 366px) {
+    main #cards-container {
+        grid-template-columns: 1fr;
+    }
 }
