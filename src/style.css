@@ -5,7 +5,7 @@
 body {
     font-family: "Trajan Pro", sans-serif;
     color: silver;
-    background-image: radial-gradient(60% 80%, #3f3147, #101010, #000);
+    background-image: radial-gradient(60% 85%, #3f3147, #101010, #000);
     background-repeat: no-repeat;
 }
 
@@ -39,6 +39,16 @@ header nav {
     box-shadow: 6px 6px 3px #666666;
 }
 
+.options-navbar {
+    display: flex;
+    justify-content: center;
+}
+
+/* #about {
+    display: flex;
+    justify-content: center;
+} */
+
 nav div .selector-list {
     width: 150px;
     padding: 3px;
@@ -56,7 +66,7 @@ nav input {
 }
 
 nav #name-search {
-    border-radius: 4px 0px 0 4px;
+    border-radius: 4px;
 }
 
 nav #order-selector,
@@ -80,7 +90,7 @@ main #cards-container {
     min-height: 40rem;
     width: 90%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     background-image: url(./img/throne-removebg-preview.png);
     background-repeat: no-repeat;
     background-position: center center;
@@ -92,14 +102,17 @@ main #cards-container {
 
 main section p {
     margin-top: 20px;
-    font-size: 0.8em;
-    display: none;
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 25px;
+    /* display: none; */
 }
 
 main #cards-container .card {
     border: 2px solid silver;
-    width: 90%;
-    height: 21rem;
+    width: 13rem;
+    min-height: 23rem;
     margin: 8px;
     padding: 10px;
     border-radius: 10px;
@@ -108,23 +121,37 @@ main #cards-container .card {
     text-align: center;
     font-size: 0.8em;
     font-family: "Trajan Pro", sans-serif;
-    background-color: #000;
+    background-color: #1a1a1a;
     /* box-shadow: 6px 6px 3px #666666; */
 }
 
-#cards-container .card h3,
+#cards-container .card img {
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.card #p-wrap {
+    height: 120px;
+}
+
+#cards-container .card h3 {
+    color: silver;
+    font-family: "Trajan Pro", sans-serif;
+    margin: 0;
+    padding: 15px 0;
+}
+
 #cards-container .card p {
     color: silver;
     font-family: "Trajan Pro", sans-serif;
+    font-size: 0.9em;
+    text-align: start;
+    margin: 0;
+    padding: 10px 10px 0 10px;
 }
 
-#cards-container .card img {
-    width: 8rem;
-}
-
-/* .content-card p {
-
-} */
 
 footer {
     height: 150px;
@@ -145,8 +172,38 @@ footer p {
          url("./trajan-pro-cufonfonts-webfont/TrajanPro-Bold.woff") format("woff");
 }
 
-@media screen and (max-width: 366px) {
+@media (max-width: 576px) {
+    body {
+        height: fit-content;
+    }
+
+    header nav {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .options-navbar {
+        margin-bottom: 10px;
+    }
+
     main #cards-container {
         grid-template-columns: 1fr;
+    }
+
+    main #cards-container .card {
+        min-width: 80vw;
+        min-height: 65vh;
+        margin: auto;
+        margin-bottom: 25px;
+        font-size: 1.55em;
+    }
+
+    main #cards-container .card p {
+        font-size: 0.6em;
+    }
+
+    main #cards-container .card img {
+        min-width: 16rem;
+        min-height: 16rem;
     }
 }
