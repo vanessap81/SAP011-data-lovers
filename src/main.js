@@ -1,5 +1,5 @@
-import sortData from "./data.js";
-import filterData from "./data.js";
+import { sortData } from "./data.js";
+import { filterData } from "./data.js";
 import data from "./data/got.js";
 
 const got = data.got;

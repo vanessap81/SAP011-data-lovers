@@ -1,4 +1,4 @@
-function sortData(data, sortBy, sortOrder) {
+export function sortData(data, sortBy, sortOrder) {
   const dataCopy = data.slice();
   if (sortOrder === "A-Z") {
     const sorted = dataCopy.sort(function (a, b) {
@@ -14,11 +14,7 @@ function sortData(data, sortBy, sortOrder) {
   }
 }
 
-function filterData(data, condition) {
-  const filteredData = data.filter((produto) => produto.family === condition);
-  filteredData.forEach((card) => {
-    console.log(card);
-  });
+export function filterData(data, condition) {
+  const filteredData = data.filter((data) => data.family === condition);
+  return filteredData;
 }
-
-export default sortData;

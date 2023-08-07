@@ -100,19 +100,19 @@ main #cards-container {
     padding-left: 0;
 }
 
-main section p {
+main section #statistics {
     margin-top: 20px;
     font-size: 1em;
     text-align: center;
     margin-bottom: 0;
     margin-top: 25px;
-    /* display: none; */
+    display: none;
 }
 
 main #cards-container .card {
     border: 2px solid silver;
     width: 13rem;
-    min-height: 23rem;
+    max-height: 377px;
     margin: 8px;
     padding: 10px;
     border-radius: 10px;
@@ -184,6 +184,16 @@ footer p {
 
     .options-navbar {
         margin-bottom: 10px;
+    }
+
+    nav div .selector-list,
+    nav div #name-search {
+        width: 210px;
+        height: 32px;
+    }
+
+    select#order-selector.selector-list option.selected {
+        width: 210px;
     }
 
     main #cards-container {
