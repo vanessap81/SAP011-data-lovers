@@ -14,4 +14,11 @@ function sortData(data, sortBy, sortOrder) {
   }
 }
 
+function filterData(data, condition) {
+  const filteredData = data.filter((produto) => produto.family === condition);
+  filteredData.forEach((card) => {
+    console.log(card);
+  });
+}
+
 export default sortData;
