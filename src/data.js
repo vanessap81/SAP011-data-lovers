@@ -21,7 +21,7 @@ export function filterData(data, condition) {
 
 export function computeStats(data) {
   const arrayLength = data.length;
-  return ((arrayLength * 100) / 53).toFixed(2);
+  return ((arrayLength * 100) / 53).toFixed(1);
 }
 
 export const filterNomes = (data, nomeBuscado) => {

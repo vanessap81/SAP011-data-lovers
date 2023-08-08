@@ -43,6 +43,7 @@ searchFamily.addEventListener("change", function () {
   const familyAmount = filterData(got, familyValue);
   const familyMembers = computeStats(familyAmount);
   familyStats.innerHTML = `Essa família corresponde a ${familyMembers}% do total de personagens`;
+  familyStats.style.display = "block";
   familyStats.style.color = "silver";
 });
 
