@@ -1,5 +1,6 @@
 import { sortData } from "./data.js";
 import { filterData } from "./data.js";
+import { computeStats } from "./data.js";
 import data from "./data/got.js";
 
 const got = data.got;
@@ -33,15 +34,13 @@ alfabeticOrder.addEventListener("change", function () {
 });
 
 const searchFamily = document.getElementById("family-selector");
+const familyStats = document.getElementById("statistics");
 
 searchFamily.addEventListener("change", function () {
   const familyValue = searchFamily.value;
   fillContainer(filterData(got, familyValue));
+  const familyAmount = filterData(got, familyValue);
+  const familyMembers = computeStats(familyAmount);
+  familyStats.innerHTML = `Essa família corresponde a ${familyMembers}% do total de personagens`;
+  familyStats.style.color = "silver";
 });
-
-// searchFamily.addEventListener("change", function () {
-//   const familyValue = searchFamily.value;
-//   console.log(familyValue);
-// });
-
-// console.log(filterData(got, "Stark"));

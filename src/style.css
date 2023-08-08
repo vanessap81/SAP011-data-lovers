@@ -106,7 +106,8 @@ main section #statistics {
     text-align: center;
     margin-bottom: 0;
     margin-top: 25px;
-    display: none;
+    color: #000;
+    /* display: none; */
 }
 
 main #cards-container .card {

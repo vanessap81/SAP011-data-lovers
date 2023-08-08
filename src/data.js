@@ -18,3 +18,8 @@ export function filterData(data, condition) {
   const filteredData = data.filter((data) => data.family === condition);
   return filteredData;
 }
+
+export function computeStats(data) {
+  const arrayLength = data.length;
+  return ((arrayLength * 100) / 53).toFixed(2);
+}
