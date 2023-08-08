@@ -23,3 +23,12 @@ export function computeStats(data) {
   const arrayLength = data.length;
   return ((arrayLength * 100) / 53).toFixed(2);
 }
+
+export const filterNomes = (data, nomeBuscado) => {
+  return data.filter(
+    (personagem) =>
+      personagem.fullName.toUpperCase().includes(nomeBuscado.toUpperCase()) ||
+      personagem.family.toUpperCase().includes(nomeBuscado.toUpperCase()) ||
+      personagem.title.toUpperCase().includes(nomeBuscado.toUpperCase())
+  );
+};

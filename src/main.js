@@ -1,6 +1,7 @@
 import { sortData } from "./data.js";
 import { filterData } from "./data.js";
 import { computeStats } from "./data.js";
+import { filterNomes } from "./data.js";
 import data from "./data/got.js";
 
 const got = data.got;
@@ -43,4 +44,11 @@ searchFamily.addEventListener("change", function () {
   const familyMembers = computeStats(familyAmount);
   familyStats.innerHTML = `Essa família corresponde a ${familyMembers}% do total de personagens`;
   familyStats.style.color = "silver";
+});
+
+const searchPersonagem = document.getElementById("search-div");
+searchPersonagem.addEventListener("input", (event) => {
+  const nomePersonagem = event.target.value;
+  const buscarPersonagem = filterNomes(got, nomePersonagem);
+  fillContainer(buscarPersonagem);
 });
