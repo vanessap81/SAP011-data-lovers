@@ -18,3 +18,11 @@ export function filterData(data, condition) {
   const filteredData = data.filter((data) => data.family === condition);
   return filteredData;
 }
+
+export const filterNomes = (data, nomeBuscado) => {
+  return data.filter(personagem => 
+    personagem.fullName.toUpperCase().includes(nomeBuscado.toUpperCase()) ||
+    personagem.family.toUpperCase().includes(nomeBuscado.toUpperCase()) ||
+    personagem.title.toUpperCase().includes(nomeBuscado.toUpperCase())
+  );
+};

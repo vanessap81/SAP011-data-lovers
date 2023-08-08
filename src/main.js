@@ -1,5 +1,6 @@
 import { sortData } from "./data.js";
 import { filterData } from "./data.js";
+import { filterNomes } from "./data.js";
 import data from "./data/got.js";
 
 const got = data.got;
@@ -45,3 +46,12 @@ searchFamily.addEventListener("change", function () {
 // });
 
 // console.log(filterData(got, "Stark"));
+
+const searchPersonagem = document.getElementById("search-div");
+searchPersonagem.addEventListener("input", event => {
+  const nomePersonagem = event.target.value;
+  const buscarPersonagem = filterNomes(got, nomePersonagem);
+  fillContainer(buscarPersonagem);
+});
+
+
