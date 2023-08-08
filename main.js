@@ -15,7 +15,7 @@ function fillContainer(data) {
     <div class="card">
       <h3 class="fullname-got">${got.fullName}</h3>
       <img class="image-got" src=${got.imageUrl} />
-        <div id="p-wrap">
+        <div>
           <p><strong>Título: </strong>${got.title}</p>
           <p><strong>Família: </strong>${got.family}</p>
           <p><strong>Nascido em: </strong>${got.born}</p>
