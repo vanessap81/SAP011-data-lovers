@@ -53,3 +53,8 @@ searchPersonagem.addEventListener("input", (event) => {
   const buscarPersonagem = filterNomes(got, nomePersonagem);
   fillContainer(buscarPersonagem);
 });
+
+const btnTodosPersonagem = document.getElementById("botao-allcards");
+btnTodosPersonagem.addEventListener("click", function () {
+  location.reload();
+});
