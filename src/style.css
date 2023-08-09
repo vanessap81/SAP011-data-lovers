@@ -82,6 +82,15 @@ nav #family-selector {
     border-radius: 4px;
 }
 
+#botao-allcards {
+    width: 130px;
+    height: 28px;
+    align-items: center;
+    border-radius: 4px;
+    font-family: "Trajan Pro", sans-serif;
+    border: solid 3px #7D7463;
+}
+
 main #cards-container {
     min-height: 40rem;
     width: 90%;
@@ -211,6 +220,10 @@ footer p br {
 
     select#order-selector.selector-list option.selected {
         width: 210px;
+    }
+
+    #botao-allcards {
+        margin-top: 15px;
     }
 
     main #cards-container {
