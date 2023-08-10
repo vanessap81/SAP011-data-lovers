@@ -185,7 +185,7 @@ export default {
       title: "Hand of the King",
       family: "Seaworth",
       imageUrl: "https://thronesapi.com/assets/images/davos-seaworth.png",
-      born: null,
+      born: "desconhecido",
     },
     {
       id: 18,
@@ -205,7 +205,7 @@ export default {
       title: "Master of Whisperers",
       family: "Unknown",
       imageUrl: "https://thronesapi.com/assets/images/varys.jpg",
-      born: null,
+      born: "desconhecido",
     },
     {
       id: 20,
@@ -268,7 +268,7 @@ export default {
       title: "The Rabbit Keeper",
       family: "Free Folk",
       imageUrl: "https://thronesapi.com/assets/images/gilly.jpg",
-      born: null,
+      born: "desconhecido",
     },
     {
       id: 26,
@@ -309,7 +309,7 @@ export default {
       title: "Commander of the Second Sons",
       family: "Naharis",
       imageUrl: "https://thronesapi.com/assets/images/daario.jpg",
-      born: null,
+      born: "desconhecido",
     },
     {
       id: 30,
@@ -381,7 +381,7 @@ export default {
       title: "Queen Consort",
       family: "Stark",
       imageUrl: "https://thronesapi.com/assets/images/talisa-stark.jpg",
-      born: null,
+      born: "desconhecido",
       death: "300 DC",
     },
     {
@@ -404,7 +404,7 @@ export default {
       title: "High Septon",
       family: "Sparrow",
       imageUrl: "https://thronesapi.com/assets/images/the-high-sparrow.jpg",
-      born: null,
+      born: "desconhecido",
     },
     {
       id: 39,
@@ -425,7 +425,7 @@ export default {
       title: "Melisandre of Asshai",
       family: "Unkown",
       imageUrl: "https://thronesapi.com/assets/images/melisandre.jpg",
-      born: null,
+      born: "desconhecido",
     },
     {
       id: 41,
@@ -435,7 +435,7 @@ export default {
       title: "Faceless Men of Braavos",
       family: "Lorath",
       imageUrl: "https://thronesapi.com/assets/images/jaqen-hghar.jpg",
-      born: null,
+      born: "desconhecido",
     },
     {
       id: 42,
@@ -456,7 +456,7 @@ export default {
       title: "Paramour of Prince Oberyn Martell",
       family: "Sand",
       imageUrl: "https://thronesapi.com/assets/images/ellaria-sand.jpg",
-      born: null,
+      born: "desconhecido",
     },
     {
       id: 44,
@@ -466,7 +466,7 @@ export default {
       title: "Free Folk Warrior",
       family: "Free Folk",
       imageUrl: "https://thronesapi.com/assets/images/tormund-giantsbane.jpg",
-      born: null,
+      born: "desconhecido",
     },
     {
       id: 45,
@@ -486,7 +486,7 @@ export default {
       title: "King of the iron Islands",
       family: "Greyjoy",
       imageUrl: "https://thronesapi.com/assets/images/euron-greyjoy.jpg",
-      born: null,
+      born: "desconhecido",
     },
     {
       id: 47,
@@ -496,7 +496,7 @@ export default {
       title: "Servant of House Stark",
       family: "Stark",
       imageUrl: "https://thronesapi.com/assets/images/hodor.jpg",
-      born: null,
+      born: "desconhecido",
     },
     {
       id: 48,
@@ -517,7 +517,7 @@ export default {
       title: "Commander of the Unsullied",
       family: "Worm",
       imageUrl: "https://thronesapi.com/assets/images/greyworm.jpg",
-      born: null,
+      born: "desconhecido",
     },
     {
       id: 50,
@@ -537,7 +537,7 @@ export default {
       title: "Former maester of the Citadel",
       family: "Qyburn",
       imageUrl: "https://thronesapi.com/assets/images/qyburn.jpg",
-      born: null,
+      born: "desconhecido",
     },
     {
       id: 52,
