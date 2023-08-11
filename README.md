@@ -6,7 +6,7 @@ Este projeto foi construído dentro da proposta do Projeto 2 do Bootcamp Laborat
 
 O objetivo principal deste projeto é aprender a desenhar e construir uma interface web onde se possa visualizar e manipular dados, entendendo o que o usuário necessita.
 
-Dentre os objetivos de aprendizagem encontram-se: 
+Dentre os objetivos de aprendizagem elencados pelo Bootcampo Laboratoria para este projeto encontram-se: 
 
 ### Uso de HTML, CSS, JavaScript Vanilla e Web APIs
 
