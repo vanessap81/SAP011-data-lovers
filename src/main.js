@@ -25,7 +25,6 @@ function fillContainer(data) {
     )
     .join("");
 }
-fillContainer(got);
 
 const alfabeticOrder = document.getElementById("order-selector");
 
