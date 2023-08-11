@@ -1,62 +1,22 @@
-# GoT - Game of Thrones - Data Lovers
-
-## Índice
-
-*
-
-***
+#  Data Lovers - Game of Thrones
 
 ## 1. Introdução
 
+Este projeto foi construído dentro da proposta do Projeto 2 do Bootcamp Laboratoria.la. A proposta prevê como entregável final uma página web que, construída em dupla, permita **visualizar dados, filtrá-los, ordená-los e fazer algum cálculo agregado**. Dentre uma série de dados de _temáticas diferentes_ disponibilizados pelo Bootcamp, escolhemos trabalhar com os dados relativos à série televisiva norte-americana [Game of Thrones](https://pt.wikipedia.org/wiki/Game_of_Thrones), transmitida originalmente pelo canal HBO entre 17 de abril de 2011 a 19 de maio de 2019.
 
+O objetivo principal deste projeto é aprender a desenhar e construir uma interface web onde se possa visualizar e manipular dados, entendendo o que o usuário necessita.
 
-## 2. Resumo do projeto
+Dentre os objetivos de aprendizagem encontram-se: 
 
-Neste projeto você **construirá uma _página web_ para visualizar um _conjunto
-(set) de dados_** que se adeque às necessidades de seu usuário.
-
-Como entregável final terá uma página web que permita **visualizar dados,
-filtrá-los, ordená-los e fazer algum cálculo agregado**. Por cálculo agregado
-nos referimos aos diversos cálculos que podem ser feitos com os dados para
-mostrar a informação mais relevante para os usuários (médias, valores máximos e
-mínimos, etc).
-
-Para este projeto trazemos uma série de dados de _temáticas diferentes_ para que
-você explore e decida com qual delas deseja trabalhar. Escolhemos
-especificamente estes conjuntos de dados porque cremos que se adequem bem a esta
-etapa de sua aprendizagem.
-
-Uma vez que você defina sua área de interesse, busque entender quem é seu
-usuário e o que exatamente ele necessita saber ou ver, para que assim possa
-construir a interface que o ajude a interagir e entender melhor os dados.
-
-
-* [Game of Thrones](src/data/got/got.json): Neste conjunto você encontrará uma
-  lista com personagens da série Breaking Bad.
-  - [Pesquisa com seguidores de Game of Thrones](src/data/got/README.pt.md)
-
-
-O objetivo principal deste projeto é que aprenda a desenhar e construir uma
-interface web onde se possa visualizar e manipular dados, entendendo o que o
-usuário necessita.
-
-## 3. Objetivos de aprendizagem
-
-### HTML
-
-### CSS
-
-### Web APIs
-
-### JavaScript
+### Uso de HTML, CSS, JavaScript Vanilla e Web APIs
 
 ### Controle de Versões (Git e GitHub)
 
-### Centrado no usuário: Desenhar e desenvolver um produto ou serviço colocando as usuárias no centro**
+### Desenho e desenvolvimento de um produto ou serviço colocando as usuárias no centro**
 
-### Design de produto: Criar protótipos para obter feedback e iterar**
+### Criação de protótipos para obter feedback e iterar**
 
-### Pesquisa: Planejar e executar testes de usabilidade**
+### Planejamento e execução de testes de usabilidade**
 
 
 ## 4. Considerações gerais
