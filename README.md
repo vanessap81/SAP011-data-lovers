@@ -48,8 +48,20 @@ O objetivo principal deste projeto é aprender a desenhar e construir uma interf
 ## 3. Descrição do produto
 
 ### Protótipo de baixa fidelidade
+<img src="https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/7310241e-a19a-440c-9e1f-c9d76d506b49" height="300" />
+
 
 ### Protótipo de alta fidelidade, com a identidade gráfica correspondente ao arquivo de dados escolhido.
+
+https://marvelapp.com/prototype/79e82j8
+
+<img src="https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/c8c2ebad-56b2-403d-8f91-1204a92d5522" height="200" />
+<img src="https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/97e1fc4f-8e76-41db-8989-cbe5fc9e1027" height="200" />
+
+<img src="https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/b503621a-34f2-4a3d-afb7-10c4113bac40" height="200" />
+<img src="https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/08eea5ef-eb49-465c-948a-242ce4b48236" height="200" />
+<img src="https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/fdaaee7d-d7f3-413a-b267-77a3e031a91e" height="300" />
+<img src="https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/7bfc10ba-32fb-43a8-b433-9d95798d9b2f" height="300" />
 
 ### Iteração dos desenhos de interface com base nos resultados desses testes 
 
