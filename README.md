@@ -8,15 +8,15 @@ O objetivo principal deste projeto é aprender a desenhar e construir uma interf
 
 Dentre os objetivos de aprendizagem elencados pelo Bootcampo Laboratoria para este projeto encontram-se: 
 
-### Uso de HTML, CSS, JavaScript Vanilla e Web APIs
+- Uso de HTML, CSS, JavaScript Vanilla e Web APIs
 
-### Controle de Versões (Git e GitHub)
+- Controle de Versões (Git e GitHub)
 
-### Desenho e desenvolvimento de um produto ou serviço colocando as usuárias no centro**
+- Desenho e desenvolvimento de um produto ou serviço colocando as usuárias no centro**
 
-### Criação de protótipos para obter feedback e iterar**
+- Criação de protótipos para obter feedback e iterar**
 
-### Planejamento e execução de testes de usabilidade**
+- Planejamento e execução de testes de usabilidade**
 
 
 ## 4. Considerações gerais
