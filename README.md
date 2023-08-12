@@ -72,11 +72,18 @@ Com base nos prótótipos, a primeira versão do projeto foi construída.
 
 <img src="https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/d1ed258d-76c9-44c3-8027-f6ab68bab889" height="300" />
 
-*Versão 1.0*
+*Versão 1.0 Desktop* 
+
+<img src="https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/202e77ba-9abb-45a7-bd8e-30c87105ed65" height="300" />
+
+*Versão 1.0 Mobile*
+
 
 ### Testes de usabilidade: descrição dos problemas de usabilidade detectados e sua resolução.
 
 ### Implementação da interface de usuário
+
+## 4. Testes unitários
 
 ## Conclusão
 
