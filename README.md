@@ -34,6 +34,16 @@ O objetivo principal deste projeto é aprender a desenhar e construir uma interf
 
 ## 2. Histórias de usuário
 
+"Como fã da série Game of Thrones, gostaria de ter um forma digital de consultar os personagens da série e de obter infomações sobre eles."
+
+"A fim de obter informações sobre os personagens da série Game of Thrones, como fã da série, quero uma enciclopédia virtual, acessível por pc ou por celular."
+
+"Como fã da série Game of Thrones, gostaria de ter um forma de ordenar a visualização os personagens por família."
+
+"Como fã da série Game of Thrones, quero poder fazer buscas por personagens."
+
+"A fim de obter informações sobre a relevância de um família na série Game of Thrones, como fã da série, quero uma maneira de quantificar os membros de uma família."
+
 ## 3. Definição do produto
 
 ### Protótipo de baixa fidelidade
