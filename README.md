@@ -34,7 +34,7 @@ O objetivo principal deste projeto é aprender a desenhar e construir uma interf
 
 ## 2. Histórias de usuário
 
-## 3. Descrição do produto
+## 3. Definição do produto
 
 ### Protótipo de baixa fidelidade
 <img src="https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/7310241e-a19a-440c-9e1f-c9d76d506b49" height="300" />
