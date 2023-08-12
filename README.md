@@ -43,27 +43,28 @@ O objetivo principal deste projeto é aprender a desenhar e construir uma interf
 ### Protótipo de alta fidelidade, com a identidade gráfica correspondente ao arquivo de dados escolhido.
 O protótipo pode ser consultado aqui: https://marvelapp.com/prototype/79e82j8
 
-Versão Desktop
+
 
 <img src="https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/c8c2ebad-56b2-403d-8f91-1204a92d5522" height="300" />
 <img src="https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/97e1fc4f-8e76-41db-8989-cbe5fc9e1027" height="300" />
 
 
-Desktop e exemplo de cartão com informações do personagem
+*Versão Desktop* 
 
 <img src="https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/b503621a-34f2-4a3d-afb7-10c4113bac40" height="300" />
 
 
-Detalhes do cartão 
+*Desktop e exemplo de cartão com informações do personagem*
 
 <img src="https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/08eea5ef-eb49-465c-948a-242ce4b48236" height="200" />
 
 
-Versão mobile
+*Detalhes do cartão*
 
 <img src="https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/fdaaee7d-d7f3-413a-b267-77a3e031a91e" height="300" />
 <img src="https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/7bfc10ba-32fb-43a8-b433-9d95798d9b2f" height="300" />
 
+*Versão mobile*
 
 ### Iteração dos desenhos de interface com base nos resultados desses testes 
 
