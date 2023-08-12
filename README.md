@@ -9,36 +9,26 @@ O objetivo principal deste projeto é aprender a desenhar e construir uma interf
 ### Dentre os objetivos de aprendizagem elencados pelo Bootcampo Laboratoria para este projeto encontram-se: 
 
 - Uso de HTML, CSS, JavaScript Vanilla e Web APIs
-
 - Controle de Versões (Git e GitHub)
-
 - Desenho e desenvolvimento de um produto ou serviço colocando as usuárias no centro**
-
 - Criação de protótipos para obter feedback e iterar**
-
 - Planejamento e execução de testes de usabilidade**
-
 
 ### Os critérios para que o produto seja considerado terminado são:
 
 - Definição de produto: documentação do trabalho no arquivo `README.md` do repositório, contendo o processo de desenho e uma elaboração sobre de forma o produto pode resolver o problema (ou problemas) de seu usuário.
-
 - Histórias de usuário: resultado do processo de investigação/pesquisa de seus usuários.
-
 - Desenho de interface do usuário
-
 - Protótipo de baixa fidelidade
-
 - Protótipo de alta fidelidade, com a identidade gráfica correspondente ao arquivo de dados escolhido.
-
-- Testes de usabilidade e posterior iteração dos desenhos de interface com base nos resultados desses testes e descrição dos problemas de usabilidade detectados e sua resolução. 
-
+- Testes de usabilidade
+- Iteração dos desenhos de interface com base nos resultados desses testes
+- Descrição dos problemas de usabilidade detectados e sua resolução. 
 - Implementação da interface de usuário (HTML/CSS/JS), que deve, no mínimo:
-
-1. Mostrar os dados em uma interface: pode ser em cards, tabelas, listas, etc.
-2. Permitir ao usuário interagir com a interface para obter as informações que necessita;
-3. Ser _responsiva_, ou seja, deve ser visualizada sem problemas a partir de diversos tamanhos de tela: celulares, tablets, notebooks, etc.
-4. Que a interface siga os fundamentos de _visual design_.
+    1. Mostrar os dados em uma interface: pode ser em cards, tabelas, listas, etc.
+    2. Permitir ao usuário interagir com a interface para obter as informações que necessita;
+    3. Ser _responsiva_, ou seja, deve ser visualizada sem problemas a partir de diversos tamanhos de tela: celulares, tablets, notebooks, etc.
+    4. Que a interface siga os fundamentos de _visual design_.
 
 - Testes unitários, com cobertura mínima de 70% de _statements_ (_sentenças_), _functions_ (_funções_), _lines_ (_linhas_), e _branches_
 (_ramos_). 
