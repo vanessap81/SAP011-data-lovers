@@ -17,7 +17,7 @@ O objetivo principal deste projeto é aprender a desenhar e construir uma interf
 ### Os critérios para que o produto seja considerado terminado são:
 
 - Definição de produto: documentação do trabalho no arquivo `README.md` do repositório, contendo o processo de desenho e uma elaboração sobre de forma o produto pode resolver o problema (ou problemas) de seu usuário.
-- Histórias de usuário: resultado do processo de investigação/pesquisa de seus usuários.
+- Histórias de usuário: resultado do processo de investigação/pesquisa de seus usuários
 - Desenho de interface do usuário
 - Protótipo de baixa fidelidade
 - Protótipo de alta fidelidade, com a identidade gráfica correspondente ao arquivo de dados escolhido.
@@ -29,7 +29,6 @@ O objetivo principal deste projeto é aprender a desenhar e construir uma interf
     2. Permitir ao usuário interagir com a interface para obter as informações que necessita;
     3. Ser _responsiva_, ou seja, deve ser visualizada sem problemas a partir de diversos tamanhos de tela: celulares, tablets, notebooks, etc.
     4. Que a interface siga os fundamentos de _visual design_.
-
 - Testes unitários, com cobertura mínima de 70% de _statements_ (_sentenças_), _functions_ (_funções_), _lines_ (_linhas_), e _branches_
 (_ramos_). 
 
@@ -42,16 +41,29 @@ O objetivo principal deste projeto é aprender a desenhar e construir uma interf
 
 
 ### Protótipo de alta fidelidade, com a identidade gráfica correspondente ao arquivo de dados escolhido.
+O protótipo pode ser consultado aqui: https://marvelapp.com/prototype/79e82j8
 
-https://marvelapp.com/prototype/79e82j8
+Versão Desktop
 
-<img src="https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/c8c2ebad-56b2-403d-8f91-1204a92d5522" height="200" />
-<img src="https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/97e1fc4f-8e76-41db-8989-cbe5fc9e1027" height="200" />
+<img src="https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/c8c2ebad-56b2-403d-8f91-1204a92d5522" height="300" />
+<img src="https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/97e1fc4f-8e76-41db-8989-cbe5fc9e1027" height="300" />
 
-<img src="https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/b503621a-34f2-4a3d-afb7-10c4113bac40" height="200" />
+
+Desktop e exemplo de cartão com informações do personagem
+
+<img src="https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/b503621a-34f2-4a3d-afb7-10c4113bac40" height="300" />
+
+
+Detalhes do cartão 
+
 <img src="https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/08eea5ef-eb49-465c-948a-242ce4b48236" height="200" />
+
+
+Versão mobile
+
 <img src="https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/fdaaee7d-d7f3-413a-b267-77a3e031a91e" height="300" />
 <img src="https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/7bfc10ba-32fb-43a8-b433-9d95798d9b2f" height="300" />
+
 
 ### Iteração dos desenhos de interface com base nos resultados desses testes 
 
