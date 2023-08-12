@@ -46,6 +46,10 @@ O objetivo principal deste projeto é aprender a desenhar e construir uma interf
 
 ## 3. Definição do produto
 
+Partindo das histórias de usuários, pensamos em um site que, acessado por desktop ou por celular, fosse capaz de entregar a um fã da série informações sobre os seus personagens, acompanhadas da foto do personagem. As informações seria dispostas por personagem, agregadas em um objeto em formato de carta (como em um jogo de cartas). As informações de que dispunhamos a partir do arquivo cedido pelo Bootcamp eram nome, sobrenome, família a que a personagem pertence, sua imagem e data de nascimento. Escolhemos, além das três funções básicas exigidas pela proposta (ordem alfabética, filtro de família e dados agregados) adicionar um campo de busca por nome ou sobrenome. 
+O site construído mantém as cores que caracterizam a abertura da série (preto e prata). A fonte utilizada pela emissora HBO para a produção das suas peças é uma adaptação da fonte TRAJAN PRO, mantida na construção do site. 
+O trono de ferro, elemento central da série, simboliza o poder sobre o continente de Westeros. É por ele lutam as famílias (também chamadas casas) da série. Esse elemento aparece em posição central no site. 
+
 ### Protótipo de baixa fidelidade
 <img src="https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/7310241e-a19a-440c-9e1f-c9d76d506b49" height="300" />
 
