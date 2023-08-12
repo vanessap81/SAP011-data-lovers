@@ -5,10 +5,12 @@
 body {
     font-family: "Trajan Pro", sans-serif;
     color: silver;
-    background-image: radial-gradient(#3f3147, #101010, #000);
+    background-image: radial-gradient(#101010, #000);
     background-repeat: no-repeat;
     background-color: #000;
 }
+
+/* background-image: radial-gradient(#3f3147, #101010, #000); */
 
 header {
     display: flex;
@@ -28,15 +30,45 @@ header {
     align-items: center;
 }
 
-#opening #logo-container {
-    display: flex;
+.flip-container {
+    width: 400px;
+    height: 400px; 
+    perspective: 1000px;
     justify-content: center;
-    align-items: center;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 
-#opening #logo-container img {
-    height: 400px;
+.flipper {
+    width: 100%;
+	height: 100%;
+    transition: transform 0.8s;
+	transform-style: preserve-3d;
+    position: relative;
+}
+
+.flip-container:hover .flipper{
+    transform: rotateY(180deg);
+}
+
+.front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    
+}
+
+.front img, .back img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    backface-visibility: hidden;
+    
+}
+
+.back {
+    transform: rotateY(180deg);
 }
 
 #opening #doSearch {
@@ -47,6 +79,9 @@ header {
     margin-top: 60px;
 }
 
+hr {
+    border-color: #000;
+}
 #opening #doSearch h5 a {
     text-decoration: none;
     font-family: "Trajan Pro", sans-serif;
@@ -239,6 +274,20 @@ footer p br {
         height: fit-content;
         background-color: #000;
         margin: auto;
+    }
+
+    #opening {
+        height: 900px;
+    }
+    
+    #opening #doSearch {
+        width: 200px;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #opening #doSearch h5 {
+        text-align: center;
     }
 
     header nav {
