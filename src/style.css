@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Trajan Pro", sans-serif;
     color: silver;
@@ -156,7 +160,6 @@ nav #family-selector {
     border-radius: 4px;
 }
 
-#all-in-button,
 #clear-search {
     width: 130px;
     height: 28px;
@@ -233,6 +236,18 @@ main #cards-container .card {
     padding: 10px 10px 0 10px;
 }
 
+#back-to-top {
+    position: fixed;
+    background-color: #000;
+    border: none;
+    border-radius: 25px;
+    bottom: 50px;
+    right: 50px;
+  }
+
+#back-to-top img {
+    height: 50px;
+}
 
 footer {
     height: 150px;
@@ -312,7 +327,6 @@ footer p br {
         width: 210px;
     }
 
-    #all-in-button,
     #clear-search {
         margin-top: 15px;
     }
@@ -336,6 +350,19 @@ footer p br {
     main #cards-container .card img {
         max-width: 16rem;
         max-height: 16rem;
+    }
+
+    #back-to-top {
+        position: fixed;
+        border: none;
+        border-radius: 12.5px;
+        bottom: 25px;
+        right: 25px;
+    }
+
+    #back-to-top img {
+        border-radius: 50%;
+        height: 22px;
     }
 
     footer p br {

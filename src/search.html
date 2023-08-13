@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Lovers - Busca - GoT</title>
+    <link rel="shorcut icon" type="icon" href="./img/icons8-game-of-thrones-32.png">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+  
+  <header class="header-got">
+    <nav id="navigation">
+
+      <div class="options-navbar">
+        <a href="index.html" id="home">HOME</a>
+      </div>
+
+      <div class="options-navbar">
+        <select class="selector-list" id="order-selector">
+          <option disabled selected hidden> Ordernar por:</option>
+          <option class="selected" value="A-Z">A-Z</option>
+          <option class="selected" value="Z-A">Z-A</option>
+        </select>
+      </div>
+
+      <div class="options-navbar">
+        <select class="selector-list" id="family-selector">
+          <option disabled selected hidden>Familia</option>
+          <option value="Targaryen">House Targaryen</option>
+          <option value="Tarly">House Tarly</option>
+          <option value="Stark">House Stark</option>
+          <option value="Baratheon">House Baratheon</option>
+          <option value="Lannister">House Lannister</option>
+          <option value="Greyjoy">House Greyjoy</option>
+          <option value="Clegane">House Clegane</option>
+          <option value="Baelish">House Baelish</option>
+          <option value="Seaworth">House Seaworth</option>
+          <option value="Unknown">Familia Desconhecida</option>
+          <option value="Tyrell">House Tyrell</option>
+          <option value="Free Folk">Free Folk</option>
+          <option value="Tarth">Tarth</option>
+          <option value="Naathi">Naathi</option>
+          <option value="None">None</option>
+          <option value="Bronn">Bronn</option>
+          <option value="Qyburn">Qyburn</option>
+          <option value="Worm">Worm</option>
+          <option value="Sand">Sand</option>
+          <option value="Lorath">Lorath</option>
+          <option value="Viper">Viper</option>
+          <option value="Sparrow">Sparrow</option>
+          <option value="Mormont">Mormont</option>
+          <option value="Bolton">Bolton</option>
+          <option value="Naharis">Naharis</option>
+        </select>
+      </div>
+      
+      <div class="options-navbar" id="search-div">
+        <input id="name-search" autocomplete="off" type="text" placeholder="Buscar">
+        <!-- <img src="./img/magnifier-removebg.png" alt="lupa"> -->
+      </div>
+      
+      <div class="options-navbar">
+        <button id="clear-search">Limpar busca</button>
+      </div>
+
+    </nav>
+  </header>
+
+  <main id="main">
+    <section><p id="statistics">Essa família corresponde a X % do total de personagens</p></section>
+    <section >
+      <ul id="cards-container">
+        <!-- <li class="card"></li> -->
+      </ul>
+      <button id="back-to-top"><img src="./img/de-volta-ao-topo.png" alt="voltar ao topo"></button>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="pairName">
+      <p>Desenvolvido no Bootcamp da Laboratória por <br> Julia Ribeiro e Vanessa Ponte</p>
+    </div>
+  </footer>
+    
+    <script src="main.js" type="module"></script>
+  </body>
+</html>

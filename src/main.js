@@ -26,11 +26,7 @@ function fillContainer(data) {
     .join("");
 }
 
-// const allIn = document.getElementById("all-in-button");
-// allIn.addEventListener("click", fillContainer());
-
 const alfabeticOrder = document.getElementById("order-selector");
-
 alfabeticOrder.addEventListener("change", function () {
   const orderValue = alfabeticOrder.value;
   fillContainer(sortData(got, "firstName", orderValue));
@@ -38,7 +34,6 @@ alfabeticOrder.addEventListener("change", function () {
 
 const searchFamily = document.getElementById("family-selector");
 const familyStats = document.getElementById("statistics");
-
 searchFamily.addEventListener("change", function () {
   const familyValue = searchFamily.value;
   fillContainer(filterData(got, familyValue));
@@ -59,4 +54,9 @@ searchPersonagem.addEventListener("input", (event) => {
 const btnTodosPersonagem = document.getElementById("clear-search");
 btnTodosPersonagem.addEventListener("click", function () {
   location.reload();
+});
+
+const backToTop = document.querySelector("#back-to-top");
+backToTop.addEventListener("click", function () {
+  window.scrollTo(0, 0);
 });
