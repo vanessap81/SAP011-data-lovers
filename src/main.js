@@ -26,6 +26,9 @@ function fillContainer(data) {
     .join("");
 }
 
+// const allIn = document.getElementById("all-in-button");
+// allIn.addEventListener("click", fillContainer());
+
 const alfabeticOrder = document.getElementById("order-selector");
 
 alfabeticOrder.addEventListener("change", function () {
@@ -53,7 +56,7 @@ searchPersonagem.addEventListener("input", (event) => {
   fillContainer(buscarPersonagem);
 });
 
-const btnTodosPersonagem = document.getElementById("botao-allcards");
+const btnTodosPersonagem = document.getElementById("clear-search");
 btnTodosPersonagem.addEventListener("click", function () {
   location.reload();
 });
