@@ -105,3 +105,5 @@ Com base nos prótótipos, a primeira versão do projeto foi construída.
 ## Conclusão
 
 
+Créditos:
+<a href="https://www.flaticon.com/br/icones-gratis/de-volta-ao-topo" title="de volta ao topo ícones">De volta ao topo ícones criados por SumberRejeki - Flaticon</a>
