@@ -11,79 +11,22 @@
   <body>
   
   <header class="header-got">
-    <div id="root">
-      <img src="./img/got_opening_logo-removebg-preview.png" alt="">
-    </div>
+    <section id="opening">
 
-    <nav id="navigation">
-
-      <div class="options-navbar" id="about">
-        <a>Sobre</a>
-      </div>
-<!-- 
-      <div class="options-navbar">
-       <p id="txt-buscar">Buscar por:</p>
-      </div> -->
-
-      <div class="options-navbar">
-        <select class="selector-list" id="order-selector">
-          <option disabled selected hidden> Ordernar por:</option>
-          <option class="selected" value="A-Z">A-Z</option>
-          <option class="selected" value="Z-A">Z-A</option>
-        </select>
+      <div class="flip-container" id="logo-container">
+        <div class="flipper">
+          <div class="front"><img src="./img/got_opening_logo-removebg-preview.png" alt="GoT"></div>
+          <div class="back"><img src="./img/valar-morghulis-removebg-preview.png" alt=""></div>
+        </div>
       </div>
 
-      <div class="options-navbar">
-        <select class="selector-list" id="family-selector">
-          <option disabled selected hidden>Familia</option>
-          <option value="Targaryen">House Targaryen</option>
-          <option value="Tarly">House Tarly</option>
-          <option value="Stark">House Stark</option>
-          <option value="Baratheon">House Baratheon</option>
-          <option value="Lannister">House Lannister</option>
-          <option value="Greyjoy">House Greyjoy</option>
-          <option value="Clegane">House Clegane</option>
-          <option value="Baelish">House Baelish</option>
-          <option value="Seaworth">House Seaworth</option>
-          <option value="Unknown">Familia Desconhecida</option>
-          <option value="Tyrell">House Tyrell</option>
-          <option value="Free Folk">Free Folk</option>
-          <option value="Tarth">Tarth</option>
-          <option value="Naathi">Naathi</option>
-          <option value="None">None</option>
-          <option value="Bronn">Bronn</option>
-          <option value="Qyburn">Qyburn</option>
-          <option value="Worm">Worm</option>
-          <option value="Sand">Sand</option>
-          <option value="Lorath">Lorath</option>
-          <option value="Viper">Viper</option>
-          <option value="Sparrow">Sparrow</option>
-          <option value="Mormont">Mormont</option>
-          <option value="Bolton">Bolton</option>
-          <option value="Naharis">Naharis</option>
-        </select>
+      <div id="doSearch">
+        <h5><a target="_blank" href="https://pt.wikipedia.org/wiki/Game_of_Thrones">Sobre a série</a></h5>
+        <h5><a href="search.html">Fazer busca</a></h5>
+        <h5><a href="https://github.com/vanessap81/SAP011-data-lovers/blob/main/README.md">Data Lovers</a></h5>
       </div>
-      
-      <div class="options-navbar" id="search-div">
-        <input id="name-search" autocomplete="off" type="text" placeholder="Buscar">
-        <!-- <img src="./img/magnifier-removebg.png" alt="lupa"> -->
-      </div>
-      
-      <div class="options-navbar">
-        <button id="botao-allcards">Refazer busca</button>
-      </div>
-
-    </nav>
-  </header>
-
-  <main>
-    <section><p id="statistics">Essa família corresponde a X % do total de personagens</p></section>
-    <section >
-      <ul id="cards-container">
-        <!-- <li class="card"></li> -->
-      </ul>
     </section>
-  </main>
+  </header>
 
   <footer class="rodape">
     <div class="pairName">
