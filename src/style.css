@@ -251,6 +251,7 @@ main #cards-container .card {
 
 footer {
     height: 150px;
+    background-color: #000;
     font-size: 0.6em;
     display: flex;
     align-items: end;
