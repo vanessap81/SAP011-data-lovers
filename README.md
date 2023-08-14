@@ -109,13 +109,19 @@ A partir de nossos próprios testes, decidimos acrescentar um botão para limpar
 
 ### Implementação da interface de usuário
 
+Na tela de abertura há três links: o primeiro leva o usuário à página da série Game of Thrones na Wikipedia. O segundo link, centralizado, leva o usuário à busca pelos personagens. O último link apresenta este readme e contextualiza o usuário acerca do contexto de produção do site. 
+
 <img src="https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/12f72145-9737-4485-a088-b39e0f9ef2e2" height="300" />
 
 *Versão 1.1 Desktop - Tela de abertura* 
 
+
+Na página de busca foram implementados o botão de Home, limpar busca e retornar ao topo da tela. 
+
 <img src="https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/c1068d4e-d1ed-4b89-a437-c6abedd4c570" height="300" />
 
 *Versão 1.1 Desktop - Página de busca de personagens* 
+
 
 
 
