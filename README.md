@@ -129,6 +129,8 @@ Na página de busca foram implementados o botão de Home, limpar busca e retorna
 
 <img src="https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/abc234bd-7e11-41c7-a3aa-45c6332ba994" height="300" />
 
+<img src="https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/4192ddfb-425e-49fc-98c3-2d6920ab8996" height="300" />
+
 *Versão 1.1 Mobile - Tela de abertura e Página de buscas*
 
 
