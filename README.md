@@ -100,9 +100,9 @@ Com base nos prótótipos, a primeira versão do projeto foi construída.
 
 ### Implementação da interface de usuário
 
-![image](https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/12f72145-9737-4485-a088-b39e0f9ef2e2)
+<img src="https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/12f72145-9737-4485-a088-b39e0f9ef2e2" height="300" />
 
-![image](https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/c1068d4e-d1ed-4b89-a437-c6abedd4c570)
+<img src="https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/c1068d4e-d1ed-4b89-a437-c6abedd4c570" height="300" />
 
 
 ## 4. Testes unitários
