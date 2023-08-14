@@ -100,6 +100,11 @@ Com base nos prótótipos, a primeira versão do projeto foi construída.
 
 ### Implementação da interface de usuário
 
+![image](https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/12f72145-9737-4485-a088-b39e0f9ef2e2)
+
+![image](https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/c1068d4e-d1ed-4b89-a437-c6abedd4c570)
+
+
 ## 4. Testes unitários
 
 ## Conclusão
@@ -107,4 +112,5 @@ Com base nos prótótipos, a primeira versão do projeto foi construída.
 
 Créditos:
 <a href="https://br.freepik.com/fotos-gratis/escamas-de-vibora-amarela-brilham-como-ia-geradora-de-joias-de-ouro_42214829.htm#query=escama%20de%20drag%C3%A3o&position=22&from_view=search&track=ais">Imagem de vecstock</a> no Freepik
+
 <a href="https://www.flaticon.com/br/icones-gratis/de-volta-ao-topo" title="de volta ao topo ícones">De volta ao topo ícones criados por SumberRejeki - Flaticon</a>
