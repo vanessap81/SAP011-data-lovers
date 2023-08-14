@@ -106,4 +106,5 @@ Com base nos prótótipos, a primeira versão do projeto foi construída.
 
 
 Créditos:
+<a href="https://br.freepik.com/fotos-gratis/escamas-de-vibora-amarela-brilham-como-ia-geradora-de-joias-de-ouro_42214829.htm#query=escama%20de%20drag%C3%A3o&position=22&from_view=search&track=ais">Imagem de vecstock</a> no Freepik
 <a href="https://www.flaticon.com/br/icones-gratis/de-volta-ao-topo" title="de volta ao topo ícones">De volta ao topo ícones criados por SumberRejeki - Flaticon</a>
