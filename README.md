@@ -102,15 +102,20 @@ Com base nos prótótipos, a primeira versão do projeto foi construída.
 
 <img src="https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/12f72145-9737-4485-a088-b39e0f9ef2e2" height="300" />
 
+*Versão 1.1 Desktop - Tela de abertura* 
+
 <img src="https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/c1068d4e-d1ed-4b89-a437-c6abedd4c570" height="300" />
 
-*Versão 1.1 Desktop* 
+*Versão 1.1 Desktop - Página de busca de personagens* 
+
+
 
 <img src="https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/02db0618-8596-4ecc-9e90-eb91d336dd61" height="300" />
 
 <img src="https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/abc234bd-7e11-41c7-a3aa-45c6332ba994" height="300" />
 
-*Versão 1.1 Mobile*
+*Versão 1.1 Mobile - Tela de abertura e Página de buscas*
+
 
 ## 4. Testes unitários
 
