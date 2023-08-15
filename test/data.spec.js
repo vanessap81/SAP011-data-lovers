@@ -1,6 +1,4 @@
 import { sortData, filterData, computeStats, filterNomes } from '../src/data.js';
-//import got from '../src/main.js';
-//import data from '../src/data/got.js';
 
 const jon = {
   fullName: "Jon Snow",
@@ -21,7 +19,7 @@ const cersei = {
 };
 
 
-const testeGot = [ jon, arya, cerse];
+const testeGot = [jon, arya, cersei];
 
 describe('filterNomes', () => {
   it('is a function', () => {
@@ -35,17 +33,17 @@ describe('filterNomes', () => {
 });
 
 
-describe('sortData', () => {
-  it('is a function', () => {
-    expect(typeof sortData).toBe('function');
+describe("sortData", () => {
+  it("is a function", () => {
+    expect(typeof sortData).toBe("function");
   });
-
-  it('retorna os dados ordenados de A-Z', () => {
-    const result = sortData(testeGOt, "A-Z")
-    const nameAZ = "Arya"
-    expect(result[0].nameAZ).toBe("Arya");
+  it("retorna os dados ordenados de A-Z", () => {
+    const result = sortData(testeGot, "fullName", "A-Z");
+    expect(result[0].fullName).toBe("Arya Stark");
   });
 });
+
+
 
 describe('sortData', () => {
   it('is a function', () => {
@@ -53,20 +51,26 @@ describe('sortData', () => {
   });
 
   it('retorna os dados ordenados de Z-A', () => {
-    const result = sortData(testeGOt, "Z-A")
-    const nameZA = "Jon"
-    expect(result[0].nameZA).toBe("Jon");
+    const result = sortData(testeGot, "fullName", "A-Z");
+    expect(result[0].fullName).toBe("Jon Snow");
+  });
+});
+describe("filterData", () => {
+  it("is a function", () => {
+    expect(typeof filterData).toBe("function");
+  });
+  it("retorna os dados por família", () => {
+    const result = filterData(testeGot, "Stark");
+    expect(result[0].fullName).toBe("Jon Snow");
   });
 });
 
-// porcentagens 
 
-describe('anotherExample', () => {
-  it('is a function', () => {
-    expect(typeof anotherExample).toBe('function');
+describe("computeStats", () => {
+  it("is a function", () => {
+    expect(typeof computeStats).toBe("function");
   });
-
-  it('returns `anotherExample`', () => {
-    expect(anotherExample()).toBe('OMG');
+  it("returns `5.7`", () => {
+    expect(computeStats(testeGot)).toBe("5.7");
   });
 });
