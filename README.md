@@ -136,12 +136,14 @@ Na página de busca foram implementados o botão de Home, limpar busca e retorna
 
 ## 4. Testes unitários
 
+Foram elaborados dois testes para cada uma das funções criadas no contexto do projeto. 
 
 <img src="https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/be82ce99-68f5-4244-8648-126741da286b" height="300" />
 
 
 
 ## Conclusão
+
 
 
 Créditos:
