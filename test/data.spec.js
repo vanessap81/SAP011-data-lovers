@@ -18,7 +18,6 @@ const cersei = {
   family: "Lannister",
 };
 
-
 const testeGot = [jon, arya, cersei];
 
 describe('filterNomes', () => {
@@ -26,12 +25,16 @@ describe('filterNomes', () => {
     expect(typeof filterNomes).toBe('function');
   });
 
-  it('retorna com dados do nome que foi pesquisado', () => {
-    const name = "Cersei"
+  it("retorna com dados do nome que foi pesquisado", () => {
+    const name = "Cersei";
     expect(filterNomes(testeGot, name)).toEqual([cersei]);
   });
 });
 
+// describe("sortData", () => {
+//   it("is a function", () => {
+//     expect(typeof sortData).toBe("function");
+//   });
 
 describe("sortData", () => {
   it("is a function", () => {
@@ -51,7 +54,7 @@ describe('sortData', () => {
   });
 
   it('retorna os dados ordenados de Z-A', () => {
-    const result = sortData(testeGot, "fullName", "A-Z");
+    const result = sortData(testeGot, "fullName", "Z-A");
     expect(result[0].fullName).toBe("Jon Snow");
   });
 });
