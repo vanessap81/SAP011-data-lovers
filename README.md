@@ -136,6 +136,9 @@ Na página de busca foram implementados o botão de Home, limpar busca e retorna
 
 ## 4. Testes unitários
 
+
+![image](https://github.com/vanessap81/SAP011-data-lovers/assets/87100153/1ecf959b-95b3-4ebb-8127-dedfb03277ef)
+
 ## Conclusão
 
 
