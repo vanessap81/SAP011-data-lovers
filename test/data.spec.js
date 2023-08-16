@@ -2,7 +2,7 @@ import {
   sortData,
   filterData,
   computeStats,
-  filterNomes,
+  filterNames,
 } from "../src/data.js";
 
 const jon = {
@@ -25,14 +25,14 @@ const cersei = {
 
 const testeGot = [jon, arya, cersei];
 
-describe("filterNomes", () => {
+describe("filterNames", () => {
   it("is a function", () => {
-    expect(typeof filterNomes).toBe("function");
+    expect(typeof filterNames).toBe("function");
   });
 
   it("retorna com dados do nome que foi pesquisado", () => {
     const name = "Cersei";
-    expect(filterNomes(testeGot, name)).toEqual([cersei]);
+    expect(filterNames(testeGot, name)).toEqual([cersei]);
   });
 });
 
