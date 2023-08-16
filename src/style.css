@@ -75,27 +75,38 @@ header {
     transform: rotateY(180deg);
 }
 
-#opening #doSearch {
+section#opening nav {
     width: 900px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 60px;
+    border: none;
+    box-shadow: none;
 }
 
-hr {
-    border-color: #000;
+section#opening #doSearch {
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
-#opening #doSearch h5 a {
+
+#opening #doSearch li {
+    list-style: none;
+}
+
+#opening #doSearch li a {
     text-decoration: none;
     font-family: "Trajan Pro", sans-serif;
     color: #666666;
-    font-size: 1.8em;
+    font-size: 1.6em;
     padding: 20px 0;
+    text-decoration: none;
 } 
 
-#opening #doSearch h5 a:hover {
-    color: silver;
+#opening #doSearch li a:hover {
+    color: orangered;
 } 
 
 header nav {
@@ -122,11 +133,6 @@ nav a {
     font-weight: bold;
 }
 
-/* #about {
-    display: flex;
-    justify-content: center;
-} */
-
 nav div .selector-list {
     width: 180px;
     height: 26px;
@@ -149,14 +155,8 @@ nav #name-search {
     height: 26px;
 }
 
-/* nav #name-search img {
-    height: 16px;
-    float: right;
-} */
-
 nav #order-selector,
 nav #family-selector {
-    /* border-radius: 4px 0px 0 4px; */
     border-radius: 4px;
 }
 
@@ -176,7 +176,7 @@ main #cards-container {
     display: grid;
     justify-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    background-image: url(./img/throne-removebg-preview.png);
+    background-image: url(./img/got_throne_removebg.png);
     background-repeat: no-repeat;
     background-position: center center;
     justify-content: center;
@@ -209,7 +209,6 @@ main #cards-container .card {
     font-size: 0.8em;
     font-family: "Trajan Pro", sans-serif;
     background-color: #1a1a1a;
-    /* box-shadow: 6px 6px 3px #666666; */
 }
 
 #cards-container .card img {
@@ -268,8 +267,8 @@ footer p br {
 
 @font-face {
     font-family: "Trajan Pro";
-    src: url("./trajan-pro-cufonfonts-webfont/TrajanPro-Regular.woff") format("woff"),
-         url("./trajan-pro-cufonfonts-webfont/TrajanPro-Bold.woff") format("woff");
+    src: url("./fonts/TrajanPro-Regular.woff") format("woff"),
+         url("./fonts/TrajanPro-Bold.woff") format("woff");
 }
 
 /* @media (max-width: 360px) {
@@ -298,14 +297,21 @@ footer p br {
         height: 900px;
     }
     
-    #opening #doSearch {
+    section#opening #doSearch {
+        margin-top: 10px;
         width: 200px;
-        justify-content: center;
         flex-direction: column;
+        padding: 0;
     }
 
-    #opening #doSearch h5 {
+    section#opening nav {
+        margin-top: 10px;
+    }
+
+    #opening #doSearch li {
         text-align: center;
+        margin-bottom: 15px;
+        text-transform: lowercase;
     }
 
     header nav {

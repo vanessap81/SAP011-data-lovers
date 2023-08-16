@@ -1,7 +1,4 @@
-import { sortData } from "./data.js";
-import { filterData } from "./data.js";
-import { computeStats } from "./data.js";
-import { filterNomes } from "./data.js";
+import { sortData, filterData, computeStats, filterNames } from "./data.js";
 import data from "./data/got.js";
 
 const got = data.got;
@@ -12,16 +9,16 @@ function fillContainer(data) {
   cardsContainer.innerHTML = data
     .map(
       (got) => `
-    <div class="card">
-      <h3 class="fullname-got">${got.fullName}</h3>
-      <img class="image-got" src=${got.imageUrl} />
-        <div>
-          <p><strong>Título: </strong>${got.title}</p>
-          <p><strong>Família: </strong>${got.family}</p>
-          <p><strong>Nascido em: </strong>${got.born}</p>
-        </div>
-    </div>
-  `
+        <li class="card">
+          <h3 class="fullname-got">${got.fullName}</h3>
+          <img class="image-got" src=${got.imageUrl} />
+            <div>
+              <p><strong>Título: </strong>${got.title}</p>
+              <p><strong>Família: </strong>${got.family}</p>
+              <p><strong>Nascido em: </strong>${got.born}</p>
+            </div>
+        </li>
+      `
     )
     .join("");
 }
@@ -47,7 +44,7 @@ searchFamily.addEventListener("change", function () {
 const searchPersonagem = document.getElementById("search-div");
 searchPersonagem.addEventListener("input", (event) => {
   const nomePersonagem = event.target.value;
-  const buscarPersonagem = filterNomes(got, nomePersonagem);
+  const buscarPersonagem = filterNames(got, nomePersonagem);
   fillContainer(buscarPersonagem);
 });
 

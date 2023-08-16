@@ -1,34 +1,31 @@
-export function sortData(data, sortBy, sortOrder) {
+export const sortData = (data, sortBy, sortOrder) => {
   const dataCopy = data.slice();
+  const sorted = dataCopy.sort(function (a, b) {
+    return a[sortBy].localeCompare(b[sortBy]);
+  });
   if (sortOrder === "A-Z") {
-    const sorted = dataCopy.sort(function (a, b) {
-      return a[sortBy].localeCompare(b[sortBy]);
-    });
     return sorted;
   }
   if (sortOrder === "Z-A") {
-    const sorted = dataCopy.sort(function (a, b) {
-      return b[sortBy].localeCompare(a[sortBy]);
-    });
-    return sorted;
+    return sorted.reverse();
   }
-}
+};
 
-export function filterData(data, condition) {
+export const filterData = (data, condition) => {
   const filteredData = data.filter((data) => data.family === condition);
   return filteredData;
-}
+};
 
-export function computeStats(data) {
+export const computeStats = (data) => {
   const arrayLength = data.length;
   return ((arrayLength * 100) / 53).toFixed(1);
-}
+};
 
-export const filterNomes = (data, nomeBuscado) => {
+export const filterNames = (data, searchedName) => {
   return data.filter(
-    (personagem) =>
-      personagem.fullName.toUpperCase().includes(nomeBuscado.toUpperCase()) ||
-      personagem.family.toUpperCase().includes(nomeBuscado.toUpperCase()) ||
-      personagem.title.toUpperCase().includes(nomeBuscado.toUpperCase())
+    (character) =>
+      character.fullName.toUpperCase().includes(searchedName.toUpperCase()) ||
+      character.family.toUpperCase().includes(searchedName.toUpperCase()) ||
+      character.title.toUpperCase().includes(searchedName.toUpperCase())
   );
 };
